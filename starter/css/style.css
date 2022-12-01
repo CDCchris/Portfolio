@@ -11,6 +11,24 @@ body {
 
 }
 
+#navigation{
+display:flex;
+width:75%;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.hero-banner{
+  display: block;
+  background-image: url(../images/02-hero-bg.png);
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+
+}
 
 
 h1,
