@@ -11,11 +11,17 @@ body {
 
 }
 
+#navbar{
+  text-align: center;
+  color: blueviolet;
+}
+
 #navigation{
 display:flex;
 width:75%;
-align-items: center;
-justify-content: space-between;
+padding: 20px;
+text-align: right;
+justify-content:space-evenly;
 
 }
 
@@ -34,7 +40,22 @@ img{
   background-repeat: no-repeat;
   background-size:cover;
   position: relative;
+  color: aquamarine;
 
+
+}
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  
 }
 
 

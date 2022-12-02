@@ -13,19 +13,11 @@
   
   <header>
     <nav id="navbar">
-    <h1>Chris</h1>
+    <h1>Chris Cook</h1>
     <div>
       <img src="./images/profile.png">
     </div>
-    <div id="navigation">
-
-                <a href="#About-me">About me</a>
-
-                <a href="#Work">Work</a>
-
-                <a href="#Contact-me">Contact me</a>
-
-    </nav>
+    
     
   </header>
 
@@ -33,14 +25,24 @@
   <section class="hero-banner">
     <div>
       <h2>Welcome to my portfolio!</h2>
-    </div>
+
+    <div id="navigation">
+
+      <a href="#About-me">About me</a>
+   
+      <a href="#Work">Work</a>
+
+      <a href="#Contact-me">Contact me</a>
+  
+</nav>
   </section>
 
   <main class="page-wrapper">
     <!-- about me -->
-    <section class="page-section" id="About-me" >
-      <h2>About Me</h2>
-      <div></div>
+    <section class="flex-container" id="About-me" >
+      <div style="flex-basis: 25%">About Me</div>
+      <div style="flex-basis:auto">My name is Chris, I am an aspiring developer who is trying to learn front end web development.
+         I have no prior experience and am finding it to be very challenging. </div>
     </section>
 
     <!-- portfolio container -->
@@ -49,9 +51,10 @@
     </section>
 
     <!-- contact -->
-    <section class="page-section contact" id="Contact-me">
-      <h2>Contact Me</h2>
-      <div></div>
+    <section class="flex-container" id="Contact-me">
+      <div style="flex-basis: 15%">Contact Me</div>
+      <div>01234 567890 </div>
+      <div>chriscook13@hotmail.co.uk </div>
     </section>
   </main>
 </body>
