@@ -43,6 +43,7 @@ img{
   color: aquamarine;
 
 
+
 }
 
 .flex-container {
@@ -58,7 +59,9 @@ img{
   
 }
 
-
+#wh{
+  text-align: center;
+}
 
 .grid-container {
   display: grid;
@@ -74,6 +77,33 @@ img{
   text-align: Center;
   padding: 20px 0;
   font-size: 30px;
+}
+
+#jakeseatery {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 400px;
+height: 200px;
+
+}
+
+#furniture {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 400px;
+height: 200px;
+
+}
+
+#cheat-sheet {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 400px;
+height: 200px;
+
 }
 
 h1,
