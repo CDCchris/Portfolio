@@ -15,41 +15,52 @@
   <header>
     <nav id="navbar">
     <h1>Chris Cook</h1>
-    <div>
-      <img src="../Portfolio/starter/images/profile.png">
-    </div>
+  
     
     
   </header>
 
   <!-- hero banner -->
-  <section class="hero-banner">
+  <section class="hero-banner" ID="banner">
     <div>
-      <h2>Welcome to my portfolio!</h2>
+           
+        <img ID="profile" src="../Portfolio/starter/images/profile.png" >
+
+        <h2>Welcome to my portfolio!</h2>
+      
+    </div>
+    
+  
+      
 
     <div id="navigation">
-
+      <ul>
+    <li>
       <a href="#About-me">About me</a>
-   
+    </li>
+    <li>
       <a href="#Work">Work</a>
-
+    </li>
+    <li>
       <a href="#Contact-me">Contact me</a>
-  
+    </li>
+    </ul>
 </nav>
   </section>
+  <br>
 
   <main class="page-wrapper">
     <!-- about me -->
     <section class="flex-container" id="About-me" >
-      <div style="flex-basis: 25%">About Me</div>
-      <div style="flex-basis:auto">My name is Chris, I am an aspiring developer who is trying to learn front end web development.
+      <div style="flex: 0 0 150px">About Me</div>
+      <div style="flex-grow: 1">My name is Chris, I am an aspiring developer who is trying to learn front end web development.
          I have no prior experience and am finding it to be very challenging. </div>
     </section>
 
     <br>
 
     <!-- portfolio container -->
-<section class="work-header" id="wh">
+<section class="work-header" id="Work">
   <h2>My Work</h2>
 </section>
 
@@ -82,7 +93,7 @@
       <div style="flex: 0 0 150px">Contact Me</div>
       <div style="flex-grow: 1">01234 567890</div>
       <div style="flex-grow: 1">chriscook13@hotmail.co.uk</div>
-      <div style="flex-grow: 1">My Github</div>
+      <div style="flex-grow: 1" a href="https://github.com/CDCchris/">My Github</a>
     </section>
   </main>
 </body>
