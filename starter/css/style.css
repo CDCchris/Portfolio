@@ -73,21 +73,6 @@ li{
 
 
 
-
-/*.hero-banner{
-  display: block;
-  background-image: url("./starter/images/herobanner.png");
-  height: 100px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  position: relative;
-  color: black;
-
-
-
-}*/
-
 .flex-container {
   display: flex;
   background-color: whitesmoke;
@@ -114,19 +99,21 @@ li{
   grid-template-rows: 80px 200px 80px 200px;
   gap: 10px;
   color: black;
-  background-image: linear-gradient(to bottom right, grey, black)
+  background-color: whitesmoke;
   padding: 20px;
 
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: whitesmoke;
   text-align: Center;
   padding: 20px 0;
   font-size: 30px;
+  text-decoration: underline;
 }
 
-#work h2{
+#work {
+  background-color: none;
   text-decoration: underline;
 
 }
