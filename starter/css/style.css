@@ -12,29 +12,47 @@ body {
 
 }
 
+.herobanner {
+  background: url("../images/background2.png");
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+}
+
 #navbar{
-  text-align: left;
+  text-align:start;
+  padding: 10px;
+  padding-left: 20px;
   color: black;
+  font-size: x-large;
+  
+}
+
+.nav-items li a {
+  color: #000;
 }
 
 #banner{
   height:200px;
 }
 
-#profile{
+#herobanner{
+  height: 200px;
+  width: auto;
+}
+
+#profile {
   height: 125px;
   width: 125x;
   border: black;
-  border-width: 5px;
+  border-color: black
 }
 
 #navigation{
-display:flex;
-width:75%;
-padding: 20px;
-text-align: right;
-justify-content:end;
-
+display: flex;
+width:auto;
+justify-content: space-between;
+font-size: x-large;
 
 
 }
@@ -56,9 +74,9 @@ li{
 
 
 
-.hero-banner{
+/*.hero-banner{
   display: block;
-  background-image: url(../images/background.png);
+  background-image: url("./starter/images/herobanner.png");
   height: 100px;
   background-position: center;
   background-repeat: no-repeat;
@@ -68,7 +86,7 @@ li{
 
 
 
-}
+}*/
 
 .flex-container {
   display: flex;
