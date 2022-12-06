@@ -8,13 +8,13 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
   background-color: whitesmoke;
-  background-image: linear-gradient(to bottom right, grey, black)
+  
 
 }
 
 #navbar{
   text-align: left;
-  color: white;
+  color: black;
 }
 
 #banner{
@@ -64,7 +64,7 @@ li{
   background-repeat: no-repeat;
   background-size:cover;
   position: relative;
-  color: whitesmoke;
+  color: black;
 
 
 
@@ -77,7 +77,7 @@ li{
 }
 
 .flex-container > div {
-  background-color: #f1f1f1;
+  background-color: whitesmoke;
   margin: 5px;
   padding: 20px;
   font-size: 30px;
@@ -95,9 +95,7 @@ li{
   grid-template-columns: auto auto auto;
   grid-template-rows: 80px 200px 80px 200px;
   gap: 10px;
-  color: whitesmoke;
-  border:5px;
-  border-color: whitesmoke;
+  color: black;
   background-image: linear-gradient(to bottom right, grey, black)
   padding: 20px;
 
@@ -173,5 +171,5 @@ footer {
 
 footer h2 {
   font-size: 20px;
-  color: white;
+  color: black;
 }
